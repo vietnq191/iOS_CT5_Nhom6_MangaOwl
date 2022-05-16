@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F03FB8C282E18EC00102CC9 /* TaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03FB8B282E18EC00102CC9 /* TaViewCell.swift */; };
 		6606F10A27EDC66200D6B8B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6606F10927EDC66200D6B8B1 /* AppDelegate.swift */; };
 		6606F10C27EDC66200D6B8B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6606F10B27EDC66200D6B8B1 /* ViewController.swift */; };
 		6606F10F27EDC66200D6B8B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6606F10D27EDC66200D6B8B1 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F03FB8B282E18EC00102CC9 /* TaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaViewCell.swift; sourceTree = "<group>"; };
 		6606F10627EDC66200D6B8B1 /* MangaOwl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaOwl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6606F10927EDC66200D6B8B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6606F10B27EDC66200D6B8B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F03FB8D282E35ED00102CC9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F03FB8B282E18EC00102CC9 /* TaViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		6606F0FD27EDC66200D6B8B1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +64,11 @@
 		6606F10827EDC66200D6B8B1 /* MangaOwl */ = {
 			isa = PBXGroup;
 			children = (
+				2F03FB8D282E35ED00102CC9 /* Cells */,
 				6606F10D27EDC66200D6B8B1 /* Main.storyboard */,
+				6606F11D27EDCE8500D6B8B1 /* Controller */,
 				6606F11B27EDCE6900D6B8B1 /* Views */,
 				6606F11C27EDCE7500D6B8B1 /* Models */,
-				6606F11D27EDCE8500D6B8B1 /* Controller */,
 				6606F10927EDC66200D6B8B1 /* AppDelegate.swift */,
 				6606F11027EDC66E00D6B8B1 /* Assets.xcassets */,
 				6606F11227EDC66E00D6B8B1 /* LaunchScreen.storyboard */,
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6606F10C27EDC66200D6B8B1 /* ViewController.swift in Sources */,
+				2F03FB8C282E18EC00102CC9 /* TaViewCell.swift in Sources */,
 				6606F10A27EDC66200D6B8B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
